@@ -16,6 +16,7 @@ We recommend to use supply connection string with SAS token so that the token ca
 
 Example of connection string with SAS token:
 
+[//]: # ([SuppressMessage\("Microsoft.Security", "CS001:SecretInline", Justification="Dummy credential for example."\)])
 ```
 BlobEndpoint=https://test.blob.core.windows.net/;QueueEndpoint=https://test.queue.core.windows.net/;FileEndpoint=https://test.file.core.windows.net/;TableEndpoint=https://test.table.core.windows.net/;SharedAccessSignature=sv=2018-03-28&ss=b&srt=sco&sp=rwdlac&se=2019-06-29T08:41:33Z&st=2019-06-08T00:41:33Z&spr=https&sig=JXp0wDoD5yrzFlKvb%2FoEOF9nHX1NpEdzsdrPGUFf%2Bfs%3D
 ```
