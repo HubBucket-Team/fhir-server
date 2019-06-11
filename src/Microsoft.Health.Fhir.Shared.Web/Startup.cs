@@ -40,6 +40,10 @@ namespace Microsoft.Health.Fhir.Web
             {
                 fhirServerBuilder.AddExperimentalSqlServer();
             }
+            else if (dataStore.Equals(KnownDataStores.TableStorage, StringComparison.InvariantCultureIgnoreCase))
+            {
+                fhirServerBuilder.AddExperimentalTableStorage();
+            }
 
             AddApplicationInsightsTelemetry(services);
         }

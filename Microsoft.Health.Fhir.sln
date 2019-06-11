@@ -110,6 +110,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.R4.Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Azure", "src\Microsoft.Health.Fhir.Azure\Microsoft.Health.Fhir.Azure.csproj", "{6A804695-44D9-4335-B559-9E9A0DAB1102}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Health.Fhir.TableStorage", "src\Microsoft.Health.Fhir.TableStorage\Microsoft.Health.Fhir.TableStorage.csproj", "{1CADB4F2-0EC6-4974-9E55-05E42831338E}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\Microsoft.Health.Fhir.Shared.Tests\Microsoft.Health.Fhir.Shared.Tests.projitems*{1495bba7-07b8-47ca-b2ed-511003b57667}*SharedItemsImports = 13
@@ -261,6 +263,10 @@ Global
 		{6A804695-44D9-4335-B559-9E9A0DAB1102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A804695-44D9-4335-B559-9E9A0DAB1102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A804695-44D9-4335-B559-9E9A0DAB1102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CADB4F2-0EC6-4974-9E55-05E42831338E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CADB4F2-0EC6-4974-9E55-05E42831338E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CADB4F2-0EC6-4974-9E55-05E42831338E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CADB4F2-0EC6-4974-9E55-05E42831338E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -311,6 +317,7 @@ Global
 		{A898CC57-69D0-4454-BB70-784C138A05BF} = {BA0D5243-CFC7-4DEB-9836-657C50195DD1}
 		{49DA2851-2A19-4969-AE87-94837BACBE7D} = {BA0D5243-CFC7-4DEB-9836-657C50195DD1}
 		{7F2B9209-2C50-42ED-961B-A09CC8A26A07} = {BA0D5243-CFC7-4DEB-9836-657C50195DD1}
+		{1CADB4F2-0EC6-4974-9E55-05E42831338E} = {7457B218-2651-49B5-BED8-22233889516A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E370FB31-CF95-47D1-B1E1-863A77973FF8}
